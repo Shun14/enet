@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --config configs/enet/enet_baseline_cityscapes_1024x512_adam_0.002_80k.yml --num_workers 8 --use_vdl --do_eval --save_interval 500 --save_dir enet_cityscapes_b8_adam_0.002_80k --PID train_enet
